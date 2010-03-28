@@ -1,0 +1,73 @@
+<% form_for(@user, :url => sign_up_path) do |f| -%>
+  <%= f.error_messages %>
+
+  <fieldset>
+    <%= f.label(:full_name) %>
+    <%= f.text_field(:full_name) %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label(:email) %>
+    <%= f.text_field(:email) %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label(:display_name) %>
+    <%= f.text_field(:display_name) %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label(:password) %>
+    <%= f.text_field(:password) %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label(:password_confirmation) %>
+    <%= f.text_field(:password_confirmation) %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label(:gender) %>
+    <%= f.select(:gender, gender_options) %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label(:birthdate) %>
+    <%= f.text_field(:birthdate) %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label(:city) %>
+    <%= f.text_field(:city) %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label(:state) %>
+    <%= f.text_field(:state) %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label(:country) %>
+    <%= f.text_field(:country) %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label(:time_zone) %>
+    <%= f.select(:time_zone, time_zone_options) %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.check_box(:public_profile) %>
+    <%= f.label(:public_profile) %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.check_box(:accept_terms) %>
+    <%= f.label(:accept_terms, 'I accept terms of use') %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.submit('Continue') %>
+  </fieldset>
+  
+<% end -%>

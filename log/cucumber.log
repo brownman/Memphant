@@ -1,0 +1,1744 @@
+# Logfile created on Sun Mar 28 02:48:32 -0400 2010  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-28 02:52:14) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 03:08:45) [GET]
+Completed in 6ms (View: 0, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (9.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 03:24:46) [GET]
+Completed in 4ms (View: 0, DB: 10) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 03:25:09) [GET]
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 03:28:15) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (23.3ms)
+Completed in 158ms (View: 155, DB: 1) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /user/register with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 03:28:15) [GET]
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2010-03-28 03:28:15) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 04:15:37) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.7ms)
+Completed in 31ms (View: 27, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 04:15:37) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 38ms (View: 33, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (5.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 04:16:41) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.7ms)
+Completed in 31ms (View: 26, DB: 6) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 04:16:41) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 52ms (View: 47, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 04:19:47) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.8ms)
+Completed in 31ms (View: 26, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 04:19:47) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 41ms (View: 36, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 04:21:24) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (14.4ms)
+Completed in 32ms (View: 28, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 04:21:25) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 39ms (View: 34, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 04:23:08) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.7ms)
+Completed in 31ms (View: 26, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 04:23:08) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 37ms (View: 33, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 04:23:08) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (42.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2010-03-28 04:23:08) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 04:23:40) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.5ms)
+Completed in 30ms (View: 26, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 04:23:40) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 66ms (View: 60, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 04:23:40) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+  [4;35;1mUser Create (12.5ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', NULL, '2010-03-28 08:23:40', '1978-03-09', 'Brasil', '2010-03-28 08:23:40', 0, NULL, 'Male', 'nHr1YiOz7ULLlw==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, 'b8c1c4f0b8c9b85a9c7cdbd72a57ddb58921d6727a80a67c5e73430200ba05e9', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 34ms (DB: 14) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 04:23:40) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.7ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (107.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 04:30:21) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (14.0ms)
+Completed in 31ms (View: 27, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 04:30:21) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 39ms (View: 34, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 04:30:21) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', 'c1LcYbs48cbLJu9A+Rudu6QHJ50nxZUAmevvouvgf3VkfwLZyIqSqQ==', '2010-03-28 08:30:21', '1978-03-09', 'Brasil', '2010-03-28 08:30:21', 0, NULL, 'Male', 'a43o+pDMbwNm2g==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, '470f6e5dd362432a77a97f66e57e09a660e717fd8cfffd4e6c0fc2a346a8099e', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 22ms (DB: 2) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 04:30:21) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.4ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (37.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 04:31:13) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.8ms)
+Completed in 31ms (View: 26, DB: 3) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 04:31:13) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 37ms (View: 32, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 04:31:13) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', 'z5tO9JJpMEsYb6tOKhL0gne4DSDFg9AzSXNylsVlTv6RPNcw/CLn3w==', '2010-03-28 08:31:13', '1978-03-09', 'Brasil', '2010-03-28 08:31:13', 0, NULL, 'Male', 'flzeR9swoiypGA==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, '38a75703e9e1fc5cdb7244f5ff2b5c836bcb111e7371b5c9c8c6ddf87c95444e', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 22ms (DB: 2) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 04:31:13) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.4ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (52.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 04:32:35) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.8ms)
+Completed in 31ms (View: 27, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 04:32:36) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.8ms)
+Completed in 37ms (View: 32, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 04:32:36) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2010-03-28 04:32:36) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (5.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 04:55:04) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.6ms)
+Completed in 30ms (View: 26, DB: 4) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 04:55:04) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.4ms)
+Completed in 37ms (View: 32, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 04:55:04) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2010-03-28 04:55:04) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (8.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 04:57:44) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.3ms)
+Completed in 32ms (View: 28, DB: 9) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 04:57:44) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.4ms)
+Completed in 40ms (View: 32, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 04:57:45) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `activation_expires`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', NULL, '2010-03-28 08:57:45', '1978-03-09', 'Brasil', NULL, '2010-03-28 08:57:45', 0, NULL, 'Male', 'I+ASU7Gc454G2Q==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, 'b7240489c5eefdfe16743ba53b65d8028addc2b34744252fca8fb58bc29b9f33', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+  [4;36;1mUser Load (18.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com' AND `users`.id <> 1) LIMIT 1[0m
+  [4;35;1mUser Load (1.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep' AND `users`.id <> 1) LIMIT 1[0m
+  [4;36;1mUser Update (27.4ms)[0m   [0;1mUPDATE `users` SET `gender` = 'Male', `updated_at` = '2010-03-28 08:57:45', `country` = 'Brasil', `display_name` = 'Nep', `created_at` = '2010-03-28 08:57:45', `city` = 'Campo Grande', `public_profile` = 1, `time_zone` = 'GMT -4:00', `full_name` = 'Alexandre Prates', `password_hash` = '3478c73a8656d20e581725cde6cc0e93f767fc7b83e0ce3b6212fffd4c67eba1', `email` = 'ajfprates@gmail.com', `state` = 'Mato Grosso do Sul', `password_salt` = 'zJm3nzqHfHq9lA==', `birthdate` = '1978-03-09' WHERE `id` = 1[0m
+  [4;35;1mSQL (62.7ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2010-03-28 04:57:45) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 04:58:44) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.2ms)
+Completed in 31ms (View: 27, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 04:58:44) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.4ms)
+Completed in 37ms (View: 32, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 04:58:44) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+  [4;35;1mUser Create (0.7ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `activation_expires`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', NULL, '2010-03-28 08:58:44', '1978-03-09', 'Brasil', NULL, '2010-03-28 08:58:44', 0, NULL, 'Male', 'EjIEatJEZ/WqWA==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, 'c33bf622b464519f4eb6c89c63955d791e3c5f97c22ee3040911c2ecf49f1534', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com' AND `users`.id <> 1) LIMIT 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep' AND `users`.id <> 1) LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE `users` SET `gender` = 'Male', `updated_at` = '2010-03-28 08:58:44', `country` = 'Brasil', `display_name` = 'Nep', `created_at` = '2010-03-28 08:58:44', `city` = 'Campo Grande', `public_profile` = 1, `time_zone` = 'GMT -4:00', `full_name` = 'Alexandre Prates', `password_hash` = 'b0bcc2f3419f2b727f6c27f59b40b4524c5d35b116bced6e21f5b0c00b70f924', `email` = 'ajfprates@gmail.com', `state` = 'Mato Grosso do Sul', `password_salt` = 'KI5hbaFU8TW/pA==', `birthdate` = '1978-03-09' WHERE `id` = 1[0m
+Sent mail to ajfprates@gmail.com
+
+Date: Sun, 28 Mar 2010 04:58:44 -0400
+To: ajfprates@gmail.com
+Subject: Welcome to Menphant Nep
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4baf1a44f00f4_1c1a3f83c720b1bc12a
+
+
+--mimepart_4baf1a44f00f4_1c1a3f83c720b1bc12a
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Ty=
+pe" />
+  </head>
+  <body>
+    <h1>Welcome to Memphant, Alexandre Prates</h1>
+    <p>
+      To complete your registration please visit the following link: http=
+://localhost:3000/activate.
+      For identify yourself sign in:
+        e-mail: ajfprates@gmail.com
+        password: secretpass
+    </p>
+    <p>Please note that this invitation is valid until </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>=
+
+--mimepart_4baf1a44f00f4_1c1a3f83c720b1bc12a--
+  [4;35;1mSQL (0.2ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 92ms (DB: 4) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 04:58:45) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.5ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;36;1mSQL (47.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 05:11:18) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.5ms)
+Completed in 31ms (View: 26, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 05:11:18) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.4ms)
+Completed in 37ms (View: 32, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 05:11:18) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `activation_expires`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', NULL, '2010-03-28 09:11:18', '1978-03-09', 'Brasil', NULL, '2010-03-28 09:11:18', 0, NULL, 'Male', 'fRvk0yG19ah7vg==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, '97ff650558d3d42a2d9247a541e81cdad45213e939d0904a1c97c6e0f7adb770', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com' AND `users`.id <> 1) LIMIT 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep' AND `users`.id <> 1) LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE `users` SET `gender` = 'Male', `updated_at` = '2010-03-28 09:11:18', `country` = 'Brasil', `display_name` = 'Nep', `created_at` = '2010-03-28 09:11:18', `city` = 'Campo Grande', `public_profile` = 1, `time_zone` = 'GMT -4:00', `full_name` = 'Alexandre Prates', `password_hash` = '4b9492a8d182881c9a318f5b29c317602cd99f6bc7af18cc18febc4f9c83d648', `email` = 'ajfprates@gmail.com', `state` = 'Mato Grosso do Sul', `password_salt` = 'EAiXsVQnqK4oOQ==', `birthdate` = '1978-03-09' WHERE `id` = 1[0m
+Sent mail to ajfprates@gmail.com
+
+Date: Sun, 28 Mar 2010 05:11:18 -0400
+To: ajfprates@gmail.com
+Subject: Welcome to Menphant Nep
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4baf1d36a71f5_1d2c3f81b13c71bc182
+
+
+--mimepart_4baf1d36a71f5_1d2c3f81b13c71bc182
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Ty=
+pe" />
+  </head>
+  <body>
+    <h1>Welcome to Memphant, Alexandre Prates</h1>
+    <p>To complete your registration by <a href=3D"http://localhost:3000/=
+activate">click here!</a></p>
+    <br/>
+    <p>For sign in:</p>
+    <p>E-mail: ajfprates@gmail.com</p>
+    <p>Password: secretpass</p>
+    <br/>
+    <br/>
+    <p>Thanks, Memphant tean</p>    =
+
+  </body>
+</html>=
+
+--mimepart_4baf1d36a71f5_1d2c3f81b13c71bc182--
+  [4;35;1mSQL (0.2ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 50ms (DB: 4) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 05:11:18) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.5ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;36;1mSQL (59.4ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (13.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (6.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 05:47:01) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.8ms)
+Completed in 31ms (View: 27, DB: 20) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 05:47:01) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.4ms)
+Completed in 36ms (View: 31, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 05:47:01) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+MywVVcmdMdNoqk09pf/B19SlgHriSMLVaunHY75FihzKJCHAEnTQcg==
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `activation_expires`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', 'MywVVcmdMdNoqk09pf/B19SlgHriSMLVaunHY75FihzKJCHAEnTQcg==', '2010-03-28 09:47:01', '1978-03-09', 'Brasil', '2010-04-07 09:47:01', '2010-03-28 09:47:01', 0, NULL, 'Male', '4X6cZrLLy9ZMFQ==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, '3fda6cebca96092f28a4884ee6e136597e3a37303366fce2bb51df6dc5be2034', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+Sent mail to ajfprates@gmail.com
+
+Date: Sun, 28 Mar 2010 05:47:01 -0400
+To: ajfprates@gmail.com
+Subject: Welcome to Menphant Nep
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4baf25958bdf9_20e23ff8861cc1b81c
+
+
+--mimepart_4baf25958bdf9_20e23ff8861cc1b81c
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Ty=
+pe" />
+  </head>
+  <body>
+    <h1>Welcome to Memphant, Alexandre Prates</h1>
+    <p>To complete your registration by <a href=3D"http://localhost:3000/=
+activate/MywVVcmdMdNoqk09pf%2FB19SlgHriSMLVaunHY75FihzKJCHAEnTQcg=3D=3D">=
+click here!</a></p>
+    <br/>
+    <p>For sign in:</p>
+    <p>E-mail: ajfprates@gmail.com</p>
+    <p>Password: secretpass</p>
+    <br/>
+    <br/>
+    <p>Thanks, Memphant tean</p>    =
+
+  </body>
+</html>=
+
+--mimepart_4baf25958bdf9_20e23ff8861cc1b81c--
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 104ms (DB: 2) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 05:47:01) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.4ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (59.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (6.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 05:47:55) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.2ms)
+Completed in 30ms (View: 26, DB: 7) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 05:47:55) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.4ms)
+Completed in 38ms (View: 33, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 05:47:55) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+ka66E6ejkqSCZny8JKLVlruP0lK9MucAvrRtMUMadFJUCPocWEDFnw==
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `activation_expires`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', 'ka66E6ejkqSCZny8JKLVlruP0lK9MucAvrRtMUMadFJUCPocWEDFnw==', '2010-03-28 09:47:55', '1978-03-09', 'Brasil', '2010-04-07 09:47:55', '2010-03-28 09:47:55', 0, NULL, 'Male', '8RHj9RnmsDD1dQ==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, '8049135cf20e93524fedf1acc269b40a6c5de490511927bd8aace2fef1ca9e58', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+Sent mail to ajfprates@gmail.com
+
+Date: Sun, 28 Mar 2010 05:47:55 -0400
+To: ajfprates@gmail.com
+Subject: Welcome to Menphant Nep
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4baf25cb8f404_21063f8f07fa59bc14a
+
+
+--mimepart_4baf25cb8f404_21063f8f07fa59bc14a
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Ty=
+pe" />
+  </head>
+  <body>
+    <h1>Welcome to Memphant, Alexandre Prates</h1>
+    <p>To complete your registration by <a href=3D"http://localhost:3000/=
+activate/ka66E6ejkqSCZny8JKLVlruP0lK9MucAvrRtMUMadFJUCPocWEDFnw=3D=3D">cl=
+ick here!</a></p>
+    <br/>
+    <p>For sign in:</p>
+    <p>E-mail: ajfprates@gmail.com</p>
+    <p>Password: secretpass</p>
+    <br/>
+    <br/>
+    <p>Thanks, Memphant tean</p>    =
+
+  </body>
+</html>=
+
+--mimepart_4baf25cb8f404_21063f8f07fa59bc14a--
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 105ms (DB: 2) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 05:47:55) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.5ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (70.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 05:50:04) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.6ms)
+Completed in 30ms (View: 26, DB: 3) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 05:50:04) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 37ms (View: 33, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 05:50:04) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+zsMAkHwc4Hc4PBhwj74+uiLBh/wJvZMOJ/qPk5cMpuva4DQiEHhHdw==
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `activation_expires`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', 'zsMAkHwc4Hc4PBhwj74+uiLBh/wJvZMOJ/qPk5cMpuva4DQiEHhHdw==', '2010-03-28 09:50:04', '1978-03-09', 'Brasil', '2010-04-07 09:50:04', '2010-03-28 09:50:04', 0, NULL, 'Male', 'oWa8Lamv2KTs1Q==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, '255b1659dd865267acb4d0cc36337a28b05574da5c3393dbe6f13585aea09b23', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+Sent mail to ajfprates@gmail.com
+
+Date: Sun, 28 Mar 2010 05:50:04 -0400
+To: ajfprates@gmail.com
+Subject: Welcome to Menphant Nep
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4baf264cac463_21383f9a8a4ae1b01f7
+
+
+--mimepart_4baf264cac463_21383f9a8a4ae1b01f7
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Ty=
+pe" />
+  </head>
+  <body>
+    <h1>Welcome to Memphant, Alexandre Prates</h1>
+    <p>To complete your registration by <a href=3D"http://localhost:3000/=
+activate/zsMAkHwc4Hc4PBhwj74+uiLBh%2FwJvZMOJ%2FqPk5cMpuva4DQiEHhHdw=3D=3D=
+">click here!</a></p>
+    <br/>
+    <p>For sign in:</p>
+    <p>E-mail: ajfprates@gmail.com</p>
+    <p>Password: secretpass</p>
+    <br/>
+    <br/>
+    <p>Thanks, Memphant tean</p>    =
+
+  </body>
+</html>=
+
+--mimepart_4baf264cac463_21383f9a8a4ae1b01f7--
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 105ms (DB: 2) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 05:50:04) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.4ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (63.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 05:58:30) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (14.7ms)
+Completed in 32ms (View: 27, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 05:58:30) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 37ms (View: 32, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 05:58:30) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+UH8+opy/WQPG8BhZEeW+ioVEZdvfrhnfqrWa64hza0culwAQA5okiA==
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `activation_expires`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', 'UH8+opy/WQPG8BhZEeW+ioVEZdvfrhnfqrWa64hza0culwAQA5okiA==', '2010-03-28 09:58:30', '1978-03-09', 'Brasil', '2010-04-07 09:58:30', '2010-03-28 09:58:30', 0, NULL, 'Male', 'zHnB/068mcUogg==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, 'b1c07b414859bbb15086d6d476d8f9b000539f6ed953e48a703b0b8f05a9d65b', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+Sent mail to ajfprates@gmail.com
+
+Date: Sun, 28 Mar 2010 05:58:30 -0400
+To: ajfprates@gmail.com
+Subject: Welcome to Menphant Nep
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4baf2846e6f57_21f03fff30c281b013
+
+
+--mimepart_4baf2846e6f57_21f03fff30c281b013
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Ty=
+pe" />
+  </head>
+  <body>
+    <h1>Welcome to Memphant, Alexandre Prates</h1>
+    <p>To complete your registration by <a href=3D"http://localhost:3000/=
+activate/UH8+opy%2FWQPG8BhZEeW+ioVEZdvfrhnfqrWa64hza0culwAQA5okiA=3D=3D">=
+click here!</a></p>
+    <br/>
+    <p>For sign in:</p>
+    <p>E-mail: ajfprates@gmail.com</p>
+    <p>Password: secretpass</p>
+    <br/>
+    <br/>
+    <p>Thanks, Memphant tean</p>    =
+
+  </body>
+</html>=
+
+--mimepart_4baf2846e6f57_21f03fff30c281b013--
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 106ms (DB: 2) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 05:58:30) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.5ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mUser Load (19.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'email') LIMIT 1[0m
+  [4;36;1mSQL (52.2ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:00:05) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.2ms)
+Completed in 30ms (View: 26, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 06:00:05) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 39ms (View: 34, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 06:00:06) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+DKWDE9zdTCAjEmjvyZ46NaoV12Cd7kAxQV2Y+rg7utocZFfFJyL4Jw==
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `activation_expires`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', 'DKWDE9zdTCAjEmjvyZ46NaoV12Cd7kAxQV2Y+rg7utocZFfFJyL4Jw==', '2010-03-28 10:00:06', '1978-03-09', 'Brasil', '2010-04-07 10:00:06', '2010-03-28 10:00:06', 0, NULL, 'Male', 'wjtPdWWC6lyieg==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, '63909291c6de6989cd21509ac8d301ad0b72131c23db5fe4f8728c736be28e00', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+Sent mail to ajfprates@gmail.com
+
+Date: Sun, 28 Mar 2010 06:00:06 -0400
+To: ajfprates@gmail.com
+Subject: Welcome to Menphant Nep
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4baf28a62d84f_22303ff562fa81b41c7
+
+
+--mimepart_4baf28a62d84f_22303ff562fa81b41c7
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Ty=
+pe" />
+  </head>
+  <body>
+    <h1>Welcome to Memphant, Alexandre Prates</h1>
+    <p>To complete your registration by <a href=3D"http://localhost:3000/=
+activate/DKWDE9zdTCAjEmjvyZ46NaoV12Cd7kAxQV2Y+rg7utocZFfFJyL4Jw=3D=3D">cl=
+ick here!</a></p>
+    <br/>
+    <p>For sign in:</p>
+    <p>E-mail: ajfprates@gmail.com</p>
+    <p>Password: secretpass</p>
+    <br/>
+    <br/>
+    <p>Thanks, Memphant tean</p>    =
+
+  </body>
+</html>=
+
+--mimepart_4baf28a62d84f_22303ff562fa81b41c7--
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 103ms (DB: 2) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:00:06) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.5ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'ajfprates@gmail.com') LIMIT 1[0m
+REQUESTING PAGE: GET /activate/DKWDE9zdTCAjEmjvyZ46NaoV12Cd7kAxQV2Y+rg7utocZFfFJyL4Jw== with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UserController#activate (for 127.0.0.1 at 2010-03-28 06:00:06) [GET]
+  Parameters: {"id"=>"DKWDE9zdTCAjEmjvyZ46NaoV12Cd7kAxQV2Y+rg7utocZFfFJyL4Jw=="}
+
+
+Processing ApplicationController#activate (for 127.0.0.1 at 2010-03-28 06:00:06) [GET]
+  Parameters: {"id"=>"DKWDE9zdTCAjEmjvyZ46NaoV12Cd7kAxQV2Y+rg7utocZFfFJyL4Jw=="}
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (56.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:00:53) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.5ms)
+Completed in 31ms (View: 26, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 06:00:53) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 41ms (View: 36, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 06:00:53) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+4conwd6R58ux9c6j7knYPfhU9uLHerxh+cRmeuXF6SVUkhfU0oXs4g==
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `activation_expires`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', '4conwd6R58ux9c6j7knYPfhU9uLHerxh+cRmeuXF6SVUkhfU0oXs4g==', '2010-03-28 10:00:53', '1978-03-09', 'Brasil', '2010-04-07 10:00:53', '2010-03-28 10:00:53', 0, NULL, 'Male', 'dGFSQmNCbDIlhA==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, 'df64e7a3276f8c910c53219bf2bf92c272b1f460ccb5db2994f35c6efc40a487', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+Sent mail to ajfprates@gmail.com
+
+Date: Sun, 28 Mar 2010 06:00:53 -0400
+To: ajfprates@gmail.com
+Subject: Welcome to Menphant Nep
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4baf28d5a16e2_226d3fea853e31b81e0
+
+
+--mimepart_4baf28d5a16e2_226d3fea853e31b81e0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Ty=
+pe" />
+  </head>
+  <body>
+    <h1>Welcome to Memphant, Alexandre Prates</h1>
+    <p>To complete your registration by <a href=3D"http://localhost:3000/=
+activate/4conwd6R58ux9c6j7knYPfhU9uLHerxh+cRmeuXF6SVUkhfU0oXs4g=3D=3D">cl=
+ick here!</a></p>
+    <br/>
+    <p>For sign in:</p>
+    <p>E-mail: ajfprates@gmail.com</p>
+    <p>Password: secretpass</p>
+    <br/>
+    <br/>
+    <p>Thanks, Memphant tean</p>    =
+
+  </body>
+</html>=
+
+--mimepart_4baf28d5a16e2_226d3fea853e31b81e0--
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 106ms (DB: 2) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:00:53) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.4ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'ajfprates@gmail.com') LIMIT 1[0m
+REQUESTING PAGE: GET /activate/4conwd6R58ux9c6j7knYPfhU9uLHerxh+cRmeuXF6SVUkhfU0oXs4g== with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UserController#activate (for 127.0.0.1 at 2010-03-28 06:00:53) [GET]
+  Parameters: {"id"=>"4conwd6R58ux9c6j7knYPfhU9uLHerxh+cRmeuXF6SVUkhfU0oXs4g=="}
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`activation_key` = '4conwd6R58ux9c6j7knYPfhU9uLHerxh+cRmeuXF6SVUkhfU0oXs4g==') LIMIT 1[0m
+Redirected to http://www.example.com/
+Completed in 6ms (DB: 2) | 302 Found [http://www.example.com/activate/4conwd6R58ux9c6j7knYPfhU9uLHerxh+cRmeuXF6SVUkhfU0oXs4g==]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/activate/4conwd6R58ux9c6j7knYPfhU9uLHerxh+cRmeuXF6SVUkhfU0oXs4g=="}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:00:53) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.5ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (132.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:01:30) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.9ms)
+Completed in 31ms (View: 27, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 06:01:30) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 41ms (View: 36, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 06:01:30) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+fVSjzTWwa+L5pv91jTgUCWne08suJd4uB/HlBoGbmsjjOdpzyc+D+w==
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `activation_expires`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', 'fVSjzTWwa+L5pv91jTgUCWne08suJd4uB/HlBoGbmsjjOdpzyc+D+w==', '2010-03-28 10:01:30', '1978-03-09', 'Brasil', '2010-04-07 10:01:30', '2010-03-28 10:01:30', 0, NULL, 'Male', 'ALgK/y7gC9OGqw==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, 'b059645584d6e974119b66893bea70d3aefb7f4f07d3e83f0d8d12283dda34bb', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+Sent mail to ajfprates@gmail.com
+
+Date: Sun, 28 Mar 2010 06:01:30 -0400
+To: ajfprates@gmail.com
+Subject: Welcome to Menphant Nep
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4baf28fa896f1_229d3fe7a5fec1b81c6
+
+
+--mimepart_4baf28fa896f1_229d3fe7a5fec1b81c6
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Ty=
+pe" />
+  </head>
+  <body>
+    <h1>Welcome to Memphant, Alexandre Prates</h1>
+    <p>To complete your registration by <a href=3D"http://localhost:3000/=
+activate/fVSjzTWwa+L5pv91jTgUCWne08suJd4uB%2FHlBoGbmsjjOdpzyc+D+w=3D=3D">=
+click here!</a></p>
+    <br/>
+    <p>For sign in:</p>
+    <p>E-mail: ajfprates@gmail.com</p>
+    <p>Password: secretpass</p>
+    <br/>
+    <br/>
+    <p>Thanks, Memphant tean</p>    =
+
+  </body>
+</html>=
+
+--mimepart_4baf28fa896f1_229d3fe7a5fec1b81c6--
+  [4;36;1mSQL (0.4ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 108ms (DB: 2) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:01:30) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.4ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'ajfprates@gmail.com') LIMIT 1[0m
+REQUESTING PAGE: GET /activate/fVSjzTWwa+L5pv91jTgUCWne08suJd4uB/HlBoGbmsjjOdpzyc+D+w== with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-28 06:01:30) [GET]
+  [4;36;1mSQL (58.4ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:03:10) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.3ms)
+Completed in 31ms (View: 27, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 06:03:10) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.8ms)
+Completed in 40ms (View: 35, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 06:03:10) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+i6BbSLbRnSPS585EkrZbPYhbsM7iMWFCnJBwJYlvvH3X5oW5Bo6Wjw==
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `activation_expires`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', 'i6BbSLbRnSPS585EkrZbPYhbsM7iMWFCnJBwJYlvvH3X5oW5Bo6Wjw==', '2010-03-28 10:03:10', '1978-03-09', 'Brasil', '2010-04-07 10:03:10', '2010-03-28 10:03:10', 0, NULL, 'Male', 'f55ZiQkdtOlu9Q==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, 'e5ac41ef59fd3bb3a6979c8d3b43b23b3ae8994a80a53f7f713eb46b30c6021e', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+Sent mail to ajfprates@gmail.com
+
+Date: Sun, 28 Mar 2010 06:03:10 -0400
+To: ajfprates@gmail.com
+Subject: Welcome to Menphant Nep
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4baf295e74f69_23003fd9ca9e61bc1a3
+
+
+--mimepart_4baf295e74f69_23003fd9ca9e61bc1a3
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Ty=
+pe" />
+  </head>
+  <body>
+    <h1>Welcome to Memphant, Alexandre Prates</h1>
+    <p>To complete your registration by <a href=3D"http://localhost:3000/=
+activate/i6BbSLbRnSPS585EkrZbPYhbsM7iMWFCnJBwJYlvvH3X5oW5Bo6Wjw=3D=3D">cl=
+ick here!</a></p>
+    <br/>
+    <p>For sign in:</p>
+    <p>E-mail: ajfprates@gmail.com</p>
+    <p>Password: secretpass</p>
+    <br/>
+    <br/>
+    <p>Thanks, Memphant tean</p>    =
+
+  </body>
+</html>=
+
+--mimepart_4baf295e74f69_23003fd9ca9e61bc1a3--
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 104ms (DB: 2) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:03:10) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.4ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'ajfprates@gmail.com') LIMIT 1[0m
+REQUESTING PAGE: GET /activate/i6BbSLbRnSPS585EkrZbPYhbsM7iMWFCnJBwJYlvvH3X5oW5Bo6Wjw== with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UserController#activate (for 127.0.0.1 at 2010-03-28 06:03:10) [GET]
+  Parameters: {"id"=>"i6BbSLbRnSPS585EkrZbPYhbsM7iMWFCnJBwJYlvvH3X5oW5Bo6Wjw=="}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`activation_key` = 'i6BbSLbRnSPS585EkrZbPYhbsM7iMWFCnJBwJYlvvH3X5oW5Bo6Wjw==') LIMIT 1[0m
+Redirected to http://www.example.com/
+Completed in 4ms (DB: 1) | 302 Found [http://www.example.com/activate/i6BbSLbRnSPS585EkrZbPYhbsM7iMWFCnJBwJYlvvH3X5oW5Bo6Wjw==]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/activate/i6BbSLbRnSPS585EkrZbPYhbsM7iMWFCnJBwJYlvvH3X5oW5Bo6Wjw=="}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:03:10) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.5ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (53.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:04:26) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.5ms)
+Completed in 30ms (View: 26, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 06:04:26) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 37ms (View: 32, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 06:04:26) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+Bb/dzvsaUCqZHFGY1gdw4bUcLwm47DE+No+8xezybJVxB+7HfVBq2Q==
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `activation_expires`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', 'Bb/dzvsaUCqZHFGY1gdw4bUcLwm47DE+No+8xezybJVxB+7HfVBq2Q==', '2010-03-28 10:04:26', '1978-03-09', 'Brasil', '2010-04-07 10:04:26', '2010-03-28 10:04:26', 0, NULL, 'Male', 'dpbc86SK6biM0A==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, 'b7cc33345780ec0a4313e4347ac58589e9b8fe65252543a7860274a3fb423430', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+Sent mail to ajfprates@gmail.com
+
+Date: Sun, 28 Mar 2010 06:04:26 -0400
+To: ajfprates@gmail.com
+Subject: Welcome to Menphant Nep
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4baf29aa9589a_23413fc8aab689bc173
+
+
+--mimepart_4baf29aa9589a_23413fc8aab689bc173
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Ty=
+pe" />
+  </head>
+  <body>
+    <h1>Welcome to Memphant, Alexandre Prates</h1>
+    <p>To complete your registration by <a href=3D"http://localhost:3000/=
+activate/Bb%2FdzvsaUCqZHFGY1gdw4bUcLwm47DE+No+8xezybJVxB+7HfVBq2Q=3D=3D">=
+click here!</a></p>
+    <br/>
+    <p>For sign in:</p>
+    <p>E-mail: ajfprates@gmail.com</p>
+    <p>Password: secretpass</p>
+    <br/>
+    <br/>
+    <p>Thanks, Memphant tean</p>    =
+
+  </body>
+</html>=
+
+--mimepart_4baf29aa9589a_23413fc8aab689bc173--
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 105ms (DB: 2) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:04:26) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.5ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'ajfprates@gmail.com') LIMIT 1[0m
+REQUESTING PAGE: GET /activate/Bb%2FdzvsaUCqZHFGY1gdw4bUcLwm47DE+No+8xezybJVxB+7HfVBq2Q== with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UserController#activate (for 127.0.0.1 at 2010-03-28 06:04:26) [GET]
+  Parameters: {"id"=>"Bb/dzvsaUCqZHFGY1gdw4bUcLwm47DE+No+8xezybJVxB+7HfVBq2Q=="}
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`activation_key` = 'Bb/dzvsaUCqZHFGY1gdw4bUcLwm47DE+No+8xezybJVxB+7HfVBq2Q==') LIMIT 1[0m
+Redirected to http://www.example.com/
+Completed in 7ms (DB: 1) | 302 Found [http://www.example.com/activate/Bb%2FdzvsaUCqZHFGY1gdw4bUcLwm47DE+No+8xezybJVxB+7HfVBq2Q==]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/activate/Bb%2FdzvsaUCqZHFGY1gdw4bUcLwm47DE+No+8xezybJVxB+7HfVBq2Q=="}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:04:26) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.5ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (41.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:05:50) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.3ms)
+Completed in 31ms (View: 27, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 06:05:50) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 38ms (View: 33, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 06:05:50) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+MDt4zg2LMZnMHPy9hjrvrt1BeT1rba0v0E0/ThTiitVORvhDMRmyHg==
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `activation_expires`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', 'MDt4zg2LMZnMHPy9hjrvrt1BeT1rba0v0E0/ThTiitVORvhDMRmyHg==', '2010-03-28 10:05:50', '1978-03-09', 'Brasil', '2010-04-07 10:05:50', '2010-03-28 10:05:50', 0, NULL, 'Male', 'EAephsM7mi2GUw==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, '90a2acf6dc2168ee6d859296d2eaf5b3e0a1d3114a53ce8b67c6776dce3cb36c', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+Sent mail to ajfprates@gmail.com
+
+Date: Sun, 28 Mar 2010 06:05:51 -0400
+To: ajfprates@gmail.com
+Subject: Welcome to Menphant Nep
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4baf29ff5f0f_238f3fac5f3249ac150
+
+
+--mimepart_4baf29ff5f0f_238f3fac5f3249ac150
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Ty=
+pe" />
+  </head>
+  <body>
+    <h1>Welcome to Memphant, Alexandre Prates</h1>
+    <p>To complete your registration by <a href=3D"http://localhost:3000/=
+activate/MDt4zg2LMZnMHPy9hjrvrt1BeT1rba0v0E0%2FThTiitVORvhDMRmyHg=3D=3D">=
+click here!</a></p>
+    <br/>
+    <p>For sign in:</p>
+    <p>E-mail: ajfprates@gmail.com</p>
+    <p>Password: secretpass</p>
+    <br/>
+    <br/>
+    <p>Thanks, Memphant tean</p>    =
+
+  </body>
+</html>=
+
+--mimepart_4baf29ff5f0f_238f3fac5f3249ac150--
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 106ms (DB: 2) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:05:51) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.5ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mUser Load (1.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'ajfprates@gmail.com') LIMIT 1[0m
+REQUESTING PAGE: GET /activate/MDt4zg2LMZnMHPy9hjrvrt1BeT1rba0v0E0%2FThTiitVORvhDMRmyHg== with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UserController#activate (for 127.0.0.1 at 2010-03-28 06:05:51) [GET]
+  Parameters: {"id"=>"MDt4zg2LMZnMHPy9hjrvrt1BeT1rba0v0E0/ThTiitVORvhDMRmyHg=="}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`activation_key` = 'MDt4zg2LMZnMHPy9hjrvrt1BeT1rba0v0E0/ThTiitVORvhDMRmyHg==') LIMIT 1[0m
+Redirected to http://www.example.com/
+Completed in 4ms (DB: 2) | 302 Found [http://www.example.com/activate/MDt4zg2LMZnMHPy9hjrvrt1BeT1rba0v0E0%2FThTiitVORvhDMRmyHg==]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/activate/MDt4zg2LMZnMHPy9hjrvrt1BeT1rba0v0E0%2FThTiitVORvhDMRmyHg=="}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:05:51) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.5ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (133.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (5.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:06:44) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.2ms)
+Completed in 30ms (View: 25, DB: 7) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 06:06:44) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 37ms (View: 32, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 06:06:44) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (2.6ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (1.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+ghnJqVVYaajFL95GvTo1oEyma8EJUHLRTtn1335CVbKG4izv9p5Auw==
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `activation_expires`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', 'ghnJqVVYaajFL95GvTo1oEyma8EJUHLRTtn1335CVbKG4izv9p5Auw==', '2010-03-28 10:06:44', '1978-03-09', 'Brasil', '2010-04-07 10:06:44', '2010-03-28 10:06:44', 0, NULL, 'Male', 'Cki4EVAlUvToRg==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, '35882edd1ca469f469d81d1148a446c4486b67bc44b56fc066021db458e5bcee', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+Sent mail to ajfprates@gmail.com
+
+Date: Sun, 28 Mar 2010 06:06:44 -0400
+To: ajfprates@gmail.com
+Subject: Welcome to Menphant Nep
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4baf2a34ed867_23ce3fb6504c21b014c
+
+
+--mimepart_4baf2a34ed867_23ce3fb6504c21b014c
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Ty=
+pe" />
+  </head>
+  <body>
+    <h1>Welcome to Memphant, Alexandre Prates</h1>
+    <p>To complete your registration by <a href=3D"http://localhost:3000/=
+activate/ghnJqVVYaajFL95GvTo1oEyma8EJUHLRTtn1335CVbKG4izv9p5Auw=3D=3D">cl=
+ick here!</a></p>
+    <br/>
+    <p>For sign in:</p>
+    <p>E-mail: ajfprates@gmail.com</p>
+    <p>Password: secretpass</p>
+    <br/>
+    <br/>
+    <p>Thanks, Memphant tean</p>    =
+
+  </body>
+</html>=
+
+--mimepart_4baf2a34ed867_23ce3fb6504c21b014c--
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 105ms (DB: 5) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:06:44) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.5ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'ajfprates@gmail.com') LIMIT 1[0m
+REQUESTING PAGE: GET /activate/ghnJqVVYaajFL95GvTo1oEyma8EJUHLRTtn1335CVbKG4izv9p5Auw== with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UserController#activate (for 127.0.0.1 at 2010-03-28 06:06:45) [GET]
+  Parameters: {"id"=>"ghnJqVVYaajFL95GvTo1oEyma8EJUHLRTtn1335CVbKG4izv9p5Auw=="}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`activation_key` = 'ghnJqVVYaajFL95GvTo1oEyma8EJUHLRTtn1335CVbKG4izv9p5Auw==') LIMIT 1[0m
+Redirected to http://www.example.com/
+Completed in 4ms (DB: 1) | 302 Found [http://www.example.com/activate/ghnJqVVYaajFL95GvTo1oEyma8EJUHLRTtn1335CVbKG4izv9p5Auw==]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/activate/ghnJqVVYaajFL95GvTo1oEyma8EJUHLRTtn1335CVbKG4izv9p5Auw=="}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:06:45) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.5ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (76.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (5.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:08:01) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.2ms)
+Completed in 30ms (View: 26, DB: 7) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 06:08:01) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 40ms (View: 34, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 06:08:01) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+SgizYQtsTTgVq8H4bZe4l7VW3ZnXxg/J6kJckBm6xfV/CG3bUj1bPA==
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `activation_expires`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', 'SgizYQtsTTgVq8H4bZe4l7VW3ZnXxg/J6kJckBm6xfV/CG3bUj1bPA==', '2010-03-28 10:08:01', '1978-03-09', 'Brasil', '2010-04-07 10:08:01', '2010-03-28 10:08:01', 0, NULL, 'Male', 'BPgCaLARTnNmbw==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, 'd9b73f258a551656d87216ca9289a738544670ab827b961a9070eedca8083cd8', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+Sent mail to ajfprates@gmail.com
+
+Date: Sun, 28 Mar 2010 06:08:01 -0400
+To: ajfprates@gmail.com
+Subject: Welcome to Menphant Nep
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4baf2a81e2b3a_240f3f86821679b4136
+
+
+--mimepart_4baf2a81e2b3a_240f3f86821679b4136
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Ty=
+pe" />
+  </head>
+  <body>
+    <h1>Welcome to Memphant, Alexandre Prates</h1>
+    <p>To complete your registration by <a href=3D"http://localhost:3000/=
+activate/SgizYQtsTTgVq8H4bZe4l7VW3ZnXxg%2FJ6kJckBm6xfV%2FCG3bUj1bPA=3D=3D=
+">click here!</a></p>
+    <br/>
+    <p>For sign in:</p>
+    <p>E-mail: ajfprates@gmail.com</p>
+    <p>Password: secretpass</p>
+    <br/>
+    <br/>
+    <p>Thanks, Memphant tean</p>    =
+
+  </body>
+</html>=
+
+--mimepart_4baf2a81e2b3a_240f3f86821679b4136--
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 105ms (DB: 2) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:08:01) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.4ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'ajfprates@gmail.com') LIMIT 1[0m
+REQUESTING PAGE: GET /activate/SgizYQtsTTgVq8H4bZe4l7VW3ZnXxg%2FJ6kJckBm6xfV%2FCG3bUj1bPA== with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UserController#activate (for 127.0.0.1 at 2010-03-28 06:08:01) [GET]
+  Parameters: {"id"=>"SgizYQtsTTgVq8H4bZe4l7VW3ZnXxg/J6kJckBm6xfV/CG3bUj1bPA=="}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`activation_key` = 'SgizYQtsTTgVq8H4bZe4l7VW3ZnXxg/J6kJckBm6xfV/CG3bUj1bPA==') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com' AND `users`.id <> 1) LIMIT 1[0m
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep' AND `users`.id <> 1) LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+
+
+Processing ApplicationController#activate (for 127.0.0.1 at 2010-03-28 06:08:01) [GET]
+  Parameters: {"id"=>"SgizYQtsTTgVq8H4bZe4l7VW3ZnXxg/J6kJckBm6xfV/CG3bUj1bPA=="}
+  [4;35;1mSQL (41.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (5.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:08:43) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (13.0ms)
+Completed in 29ms (View: 25, DB: 6) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /sign_up/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UserController#new (for 127.0.0.1 at 2010-03-28 06:08:43) [GET]
+Rendering template within layouts/application
+Rendering user/new
+Rendered layouts/_user_menu (0.5ms)
+Completed in 37ms (View: 32, DB: 0) | 200 OK [http://www.example.com/sign_up/new]
+REQUESTING PAGE: POST /sign_up with {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "country"=>"Brasil", "birthdate"=>"03/09/1978", "password_confirmation"=>"secretpass", "gender"=>"Male", "accept_terms"=>"1", "full_name"=>"Alexandre Prates", "time_zone"=>"GMT -4:00", "display_name"=>"Nep", "password"=>"secretpass", "public_profile"=>"1", "state"=>"Mato Grosso do Sul", "email"=>"ajfprates@gmail.com"}} and HTTP headers {"HTTP_REFERER"=>"/sign_up/new"}
+
+
+Processing UserController#create (for 127.0.0.1 at 2010-03-28 06:08:43) [POST]
+  Parameters: {"commit"=>"Continue", "user"=>{"city"=>"Campo Grande", "birthdate"=>"03/09/1978", "country"=>"Brasil", "password_confirmation"=>"secretpass", "gender"=>"Male", "full_name"=>"Alexandre Prates", "accept_terms"=>"1", "display_name"=>"Nep", "time_zone"=>"GMT -4:00", "password"=>"secretpass", "email"=>"ajfprates@gmail.com", "state"=>"Mato Grosso do Sul", "public_profile"=>"1"}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep') LIMIT 1[0m
+7lm3/xUqsoExx1Wtcgm8UcupCdjkdPpcgVc93xYGZTsD/ENgBYicBg==
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`city`, `activation_key`, `created_at`, `birthdate`, `country`, `activation_expires`, `updated_at`, `admin`, `last_access`, `gender`, `password_salt`, `full_name`, `last_ip`, `display_name`, `time_zone`, `manage_messages`, `password_hash`, `manage_user`, `email`, `state`, `public_profile`, `active`, `manage_rooms`, `online`) VALUES('Campo Grande', '7lm3/xUqsoExx1Wtcgm8UcupCdjkdPpcgVc93xYGZTsD/ENgBYicBg==', '2010-03-28 10:08:43', '1978-03-09', 'Brasil', '2010-04-07 10:08:43', '2010-03-28 10:08:43', 0, NULL, 'Male', 'NDo6sCHBpr5d+A==', 'Alexandre Prates', NULL, 'Nep', 'GMT -4:00', 0, '01d458afcc23f7fa93615da1b2949113044aabdac7d5a92e5e34e1eb00837f12', 0, 'ajfprates@gmail.com', 'Mato Grosso do Sul', 1, 0, 0, 0)[0m
+Sent mail to ajfprates@gmail.com
+
+Date: Sun, 28 Mar 2010 06:08:43 -0400
+To: ajfprates@gmail.com
+Subject: Welcome to Menphant Nep
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4baf2aabb6590_24403fc4be3de9ac1a3
+
+
+--mimepart_4baf2aabb6590_24403fc4be3de9ac1a3
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Ty=
+pe" />
+  </head>
+  <body>
+    <h1>Welcome to Memphant, Alexandre Prates</h1>
+    <p>To complete your registration by <a href=3D"http://localhost:3000/=
+activate/7lm3%2FxUqsoExx1Wtcgm8UcupCdjkdPpcgVc93xYGZTsD%2FENgBYicBg=3D=3D=
+">click here!</a></p>
+    <br/>
+    <p>For sign in:</p>
+    <p>E-mail: ajfprates@gmail.com</p>
+    <p>Password: secretpass</p>
+    <br/>
+    <br/>
+    <p>Thanks, Memphant tean</p>    =
+
+  </body>
+</html>=
+
+--mimepart_4baf2aabb6590_24403fc4be3de9ac1a3--
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 103ms (DB: 2) | 302 Found [http://www.example.com/sign_up]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/sign_up"}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:08:43) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.4ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'ajfprates@gmail.com') LIMIT 1[0m
+REQUESTING PAGE: GET /activate/7lm3%2FxUqsoExx1Wtcgm8UcupCdjkdPpcgVc93xYGZTsD%2FENgBYicBg== with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UserController#activate (for 127.0.0.1 at 2010-03-28 06:08:43) [GET]
+  Parameters: {"id"=>"7lm3/xUqsoExx1Wtcgm8UcupCdjkdPpcgVc93xYGZTsD/ENgBYicBg=="}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`activation_key` = '7lm3/xUqsoExx1Wtcgm8UcupCdjkdPpcgVc93xYGZTsD/ENgBYicBg==') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'ajfprates@gmail.com' AND `users`.id <> 1) LIMIT 1[0m
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`display_name` = BINARY 'Nep' AND `users`.id <> 1) LIMIT 1[0m
+  [4;36;1mUser Update (0.5ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-03-28 10:08:43', `activation_expires` = NULL, `activation_key` = NULL, `active` = 1 WHERE `id` = 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed in 16ms (DB: 4) | 302 Found [http://www.example.com/activate/7lm3%2FxUqsoExx1Wtcgm8UcupCdjkdPpcgVc93xYGZTsD%2FENgBYicBg==]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/activate/7lm3%2FxUqsoExx1Wtcgm8UcupCdjkdPpcgVc93xYGZTsD%2FENgBYicBg=="}
+
+
+Processing RoomController#index (for 127.0.0.1 at 2010-03-28 06:08:43) [GET]
+Rendering template within layouts/application
+Rendering room/index
+Rendered layouts/_user_menu (0.5ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+  [4;36;1mSQL (74.0ms)[0m   [0;1mROLLBACK[0m

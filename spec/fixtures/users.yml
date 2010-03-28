@@ -1,0 +1,39 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  full_name: MyString
+  email: MyString
+  name: MyString
+  password_salt: MyString
+  password_hash: MyString
+  gender: MyString
+  birthdate: 2010-03-28
+  city: MyString
+  state: MyString
+  country: MyString
+  time_zone: MyString
+  public_profile: false
+  activation_key: MyString
+  admin: false
+  manage_rooms: false
+  manage_messages: false
+  manage_user: false
+
+two:
+  full_name: MyString
+  email: MyString
+  name: MyString
+  password_salt: MyString
+  password_hash: MyString
+  gender: MyString
+  birthdate: 2010-03-28
+  city: MyString
+  state: MyString
+  country: MyString
+  time_zone: MyString
+  public_profile: false
+  activation_key: MyString
+  admin: false
+  manage_rooms: false
+  manage_messages: false
+  manage_user: false
